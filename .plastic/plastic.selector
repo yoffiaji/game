@@ -1,0 +1,4 @@
+repository "IMK@zakitepe@cloud"
+  path "/"
+    br "/main"
+    co "/main"
