@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1304863663627255538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5457764217523769953}
+  - component: {fileID: 7058431594254897729}
+  m_Layer: 0
+  m_Name: GameSysteam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5457764217523769953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304863663627255538}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.5262537, y: 0.8633822, z: -0.014145443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7058431594254897729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304863663627255538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed06959ed862f944a9f20f2d9b8eef53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  game_aktif: 0
+  game_selesai: 0
+  SistemAcak: 1
+  Target: 0
+  datasaatini: 0
+  Teks_Level: {fileID: 0}
+  Teks_Score: {fileID: 0}
+  Teks_Waktu: {fileID: 0}
+  UI_Darah: {fileID: 0}
+  GUI_PAUSE: {fileID: 0}
+  GUI_TRANSISI: {fileID: 0}
+  DataPermainan:
+  - Nama: ANJING
+    Gambar: {fileID: 21300000, guid: 77fd213272cc7e34bab755c755f42e7e, type: 3}
+  - Nama: AYAM
+    Gambar: {fileID: 21300000, guid: 9e3f9de26f739dd40bfe2628248dc9d7, type: 3}
+  - Nama: BABI
+    Gambar: {fileID: 21300000, guid: 43f3c4eefb80de341843e3455f33afb8, type: 3}
+  - Nama: BEBEK
+    Gambar: {fileID: 21300000, guid: de42f1a133ab35841aa1047497c5a748, type: 3}
+  - Nama: BUAYA
+    Gambar: {fileID: 21300000, guid: 6fc0ff8d0bec522499aa761caf93d1a3, type: 3}
+  - Nama: BURUNG BEO
+    Gambar: {fileID: 21300000, guid: 3546c678a7f9eae42b64a9e967ae7d98, type: 3}
+  - Nama: CICAK
+    Gambar: {fileID: 21300000, guid: 06b649d019c263c4cb41295c5b04dca4, type: 3}
+  - Nama: GAJAH
+    Gambar: {fileID: 21300000, guid: 845fc704ef08bd345bfcb9db8f57d748, type: 3}
+  - Nama: HARIMAU
+    Gambar: {fileID: 21300000, guid: f9bdf72ffa9aee64193b60f4a3186cee, type: 3}
+  - Nama: JANGKRIK
+    Gambar: {fileID: 21300000, guid: 6d8203bec5bf6f34198170a43bcd7f5d, type: 3}
+  - Nama: KAMBING
+    Gambar: {fileID: 21300000, guid: 019f31ba5fa7b1a4b89963f3bc1e73e1, type: 3}
+  - Nama: KATAK
+    Gambar: {fileID: 21300000, guid: 13d888f77cb1bc445b14f0586221ad5b, type: 3}
+  - Nama: KERA
+    Gambar: {fileID: 21300000, guid: ccc486570822b6a4c87c2a9fb2a7a55b, type: 3}
+  - Nama: KUCING
+    Gambar: {fileID: 21300000, guid: 6a7f41c7c63d7e243aaa70e4bf92c0bb, type: 3}
+  - Nama: KUDA
+    Gambar: {fileID: 21300000, guid: 8690be1d7bacccd40b9b4970197d764a, type: 3}
+  - Nama: PAUS
+    Gambar: {fileID: 21300000, guid: 2a779b843b4c800438015c8810754462, type: 3}
+  - Nama: SAPI
+    Gambar: {fileID: 21300000, guid: c1095465804c94b47ba53316007b4c8e, type: 3}
+  - Nama: SERIGALA
+    Gambar: {fileID: 21300000, guid: 5bc3df0b96f5ca141bfd600c5c9c2497, type: 3}
+  - Nama: TIKUS
+    Gambar: {fileID: 21300000, guid: 4b0c3c5ffa7037e4a9b60876479178dd, type: 3}
+  - Nama: ULAR
+    Gambar: {fileID: 21300000, guid: 2260f3a004335cc4a8199642282ab345, type: 3}
+  DropTempat:
+  - {fileID: 0}
+  - {fileID: 0}
+  DragObj:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _AcakSoal: 
+  _AcakPos: 
